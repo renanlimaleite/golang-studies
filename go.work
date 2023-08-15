@@ -4,4 +4,5 @@ use (
 	.
 	./21-pacotes-go
 	./22-pacotes-go
+	./23-pacotes-go
 )

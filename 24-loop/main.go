@@ -1,0 +1,24 @@
+package main
+
+func main() {
+	// apenas for
+	for i := 0; i < 10; i++ {
+		println(i)
+	}
+
+	numeros := []string{"um", "dois", "tres"}
+
+	for k, v := range numeros {
+		println(k, v)
+	}
+
+	i := 0
+	for i < 5 {
+		println(i)
+		i++
+	}
+
+	// for {
+	// 	println("loop infinito")
+	// }
+}
