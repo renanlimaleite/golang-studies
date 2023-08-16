@@ -44,6 +44,7 @@ func main() {
 		fmt.Println(string(buffer[:n])) // slice de 0 até n (10)
 	}
 
+	fmt.Println("4. Removendo o arquivo...")
 	err = os.Remove("arquivo.txt")
 	if err != nil {
 		panic(err)
