@@ -44,4 +44,8 @@ func main() {
 		fmt.Println(string(buffer[:n])) // slice de 0 até n (10)
 	}
 
+	err = os.Remove("arquivo.txt")
+	if err != nil {
+		panic(err)
+	}
 }
